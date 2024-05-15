@@ -3,7 +3,7 @@ package com.sam.bmi
 fun main () {
     //val secret = 7
     val secret = (1..10).random()
-    println("secret: $secret")
+    //println("secret: $secret")
 
     var inputnum:Int = 0
     var bingo = false
