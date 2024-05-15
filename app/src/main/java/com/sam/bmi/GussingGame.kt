@@ -15,7 +15,7 @@ fun main () {
         val input = readLine()
         inputnum = input?.toIntOrNull() ?:0
 
-        if (inputnum != 0 && inputnum <= 10) { //Filter null ,0 and over than 10 cases
+        if (inputnum > 0 && inputnum <= 10) { //Filter null ,0 and over than 10 cases
             if (inputnum < secret) {
                 minnum=inputnum
             } else if (inputnum > secret) {
